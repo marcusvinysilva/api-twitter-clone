@@ -30,8 +30,5 @@ const createUserController = async (req, res) => {
 
   res.status(201).send(user);
 };
-const findAllUserController = async (req, res) => {
-  res.send({ message: "Find All ok" });
-};
 
-module.exports = { createUserController, findAllUserController };
+module.exports = { createUserController };
